@@ -1,0 +1,13 @@
+models:
+  - name: dim_clientes
+    description: Dimensão de clientes.
+    columns:
+      - name: PK_CLIENTE
+        description: Chave primária da tabela cliente.
+        tests:
+          - unique
+          - not_null
+      - name: FK_TERRITORIO
+        description: Chave estrangeira da tabela território.
+      - name: NOME_CLIENTE
+        description: Nome completo do cliente.

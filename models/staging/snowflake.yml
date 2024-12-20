@@ -1,0 +1,18 @@
+sources:
+  - name: snowflake
+    description: Banco de dados com dados bruto da Adventure Works.
+    schema: RAW_ADVENTURE_WORKS
+    database: FEA24_11
+    tables:
+      - name: CUSTOMER
+        columns:
+            - name: CUSTOMERID
+              tests:
+                - unique
+                - not_null
+      - name: PERSON
+        columns:
+          - name: BUSINESSENTITYID
+            tests:
+              - unique
+              - not_null
