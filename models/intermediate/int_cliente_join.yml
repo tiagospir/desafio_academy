@@ -1,0 +1,9 @@
+models:
+  - name: int_cliente_join
+    columns:
+      - name: PK_CLIENTE
+        tests:
+          - unique
+          - not_null
+      - name: FK_TERRITORIO
+      - name: NOME_CLIENTE
