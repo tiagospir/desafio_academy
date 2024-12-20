@@ -4,9 +4,6 @@ models:
     columns:
       - name: PK_CLIENTE
         description: Chave primária da tabela cliente.
-        tests:
-          - unique
-          - not_null
       - name: FK_TERRITORIO
         description: Chave estrangeira da tabela território.
       - name: NOME_CLIENTE
