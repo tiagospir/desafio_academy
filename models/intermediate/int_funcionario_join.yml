@@ -1,0 +1,10 @@
+models:
+  - name: int_funcionario_join
+    columns:
+      - name: pk_funcionario
+        tests:
+          - unique
+          - not_null
+      - name: fk_territorio
+      - name: nome_funcionario
+      - name: cargo

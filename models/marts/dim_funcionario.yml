@@ -1,0 +1,12 @@
+models:
+  - name: dim_funcionario
+    description: Dimensão de funcionários.
+    columns:
+      - name: pk_funcionario
+        description: Chave primária da tabela funcionários.
+      - name: fk_territorio
+        description: Chave estrangeira da tabela territórios.
+      - name: nome_funcionario
+        description: Nome completo do funcionário.
+      - name: cargo
+        description: Cargo do funcionário.

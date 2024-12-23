@@ -7,7 +7,7 @@ with
     ,renomeado as (
         select
             cast (BUSINESSENTITYID as int) as pk_pessoa
-            , cast (FIRSTNAME || ' ' || MIDDLENAME || ' ' || LASTNAME as string) as nome_cliente
+            , cast (FIRSTNAME || ' ' || MIDDLENAME || ' ' || LASTNAME as string) as nome_pessoa
         from fonte_person
     )
 
