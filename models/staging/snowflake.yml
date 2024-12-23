@@ -46,3 +46,9 @@ sources:
             tests:
               - unique
               - not_null
+      - name: PRODUCT
+        columns:
+          - name: PRODUCTID
+            tests:
+              - unique
+              - not_null
