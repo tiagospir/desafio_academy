@@ -59,4 +59,16 @@ sources:
               - unique
               - not_null
       - name: SALESORDERHEADERSALESREASON
+      - name: SALESORDERHEADER
+        columns:
+          - name: SALESORDERID
+            tests:
+              - unique
+              - not_null
+      - name: CREDITCARD
+        columns:
+          - name: CREDITCARDID
+            tests:
+              - unique
+              - not_null
 

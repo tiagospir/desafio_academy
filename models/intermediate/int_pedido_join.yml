@@ -1,0 +1,14 @@
+models:
+  - name: int_pedido_join
+    columns:
+      - name: PK_PEDIDO
+        tests:
+          - unique
+          - not_null
+      - name: FK_CLIENTE
+      - name: FK_FUNCIONARIO
+      - name: FK_TERRITORIO
+      - name: DATA_PEDIDO
+      - name: DATA_ENVIO
+      - name: STATUS_PEDIDO
+      - name: tipo_cartao
