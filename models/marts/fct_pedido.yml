@@ -1,0 +1,20 @@
+models:
+  - name: fct_pedido
+    description: Fato de pedido.
+    columns:
+      - name: PK_PEDIDO
+        description: Chave primária da tabela pedido.
+      - name: FK_CLIENTE
+        description: Chave estrangeira da tabela cliente.
+      - name: FK_FUNCIONARIO
+        description: Chave estrangeira da tabela funcionário.
+      - name: FK_TERRITORIO
+        description: Chave estrangeira da tabela território.
+      - name: DATA_PEDIDO
+        description: Data do pedido.
+      - name: DATA_ENVIO
+        description: Data de envio do pedido.
+      - name: STATUS_PEDIDO
+        description: Status do pedido.
+      - name: tipo_cartao
+        description: Tipo de cartão usado no pedido.
