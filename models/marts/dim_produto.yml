@@ -1,0 +1,8 @@
+models:
+  - name: dim_produto
+    description: Dimensão de produtos.
+    columns:
+      - name: pk_produtos
+        description: Chave primária da tabela produtos.
+      - name: nome_produto
+        description: Nome do produto.

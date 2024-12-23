@@ -1,5 +1,5 @@
 models:
-  - name: dim_clientes
+  - name: dim_cliente
     description: Dimensão de clientes.
     columns:
       - name: PK_CLIENTE
