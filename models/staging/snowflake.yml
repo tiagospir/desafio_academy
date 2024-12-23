@@ -34,3 +34,15 @@ sources:
             tests:
               - unique
               - not_null
+      - name: EMPLOYEE
+        columns:
+          - name: BUSINESSENTITYID
+            tests:
+              - unique
+              - not_null
+      - name: SALESPERSON
+        columns:
+          - name: BUSINESSENTITYID
+            tests:
+              - unique
+              - not_null
