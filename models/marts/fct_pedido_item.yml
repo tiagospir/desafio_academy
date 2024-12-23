@@ -1,0 +1,16 @@
+models:
+  - name: fct_pedido_item
+    description: Fato de item por pedido.
+    columns:
+      - name: PK_PEDIDO_ITEM
+        description: Chave primária da tabela pedido item.
+      - name: FK_PEDIDO
+        description: Chave estrangeira da tabela pedido.
+      - name: FK_PRODUTO
+        description: Chave estrangeira da tabela produto.
+      - name: PRECO_UNITARIO
+        description: Preço unitário do produto no pedido.
+      - name: DESCONTO_UNITARIO
+        description: Desconto concedido unitário do produto no pedido.
+      - name: QUANTIDADE
+        description: Quantidade do produto no pedido.
