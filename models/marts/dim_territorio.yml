@@ -1,0 +1,12 @@
+models:
+  - name: dim_territorio
+    description: Dimensão de territórios.
+    columns:
+      - name: pk_territorio
+        description: Chave primária da tabela territórios.
+      - name: cidade
+        description: Cidade do território.
+      - name: estado
+        description: Estado do território.
+      - name: pais
+        description: País do território.
