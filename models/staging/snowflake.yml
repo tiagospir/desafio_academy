@@ -71,4 +71,10 @@ sources:
             tests:
               - unique
               - not_null
+      - name: SALESORDERDETAIL
+        columns:
+          - name: SALESORDERDETAILID
+            tests:
+              - unique
+              - not_null
 
