@@ -1,0 +1,10 @@
+models:
+  - name: int_motivo_venda_join
+    columns:
+      - name: pk_motivo_venda_por_pedido
+        tests:
+          - unique
+          - not_null
+      - name: fk_pedido_item
+      - name: motivo_venda
+      - name: razao_venda
