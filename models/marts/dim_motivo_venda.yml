@@ -1,0 +1,12 @@
+models:
+  - name: dim_motivo_venda
+    description: Dimensão de motivo da venda.
+    columns:
+      - name: pk_motivo_venda_por_pedido
+        description: Chave primária da tabela motivo da venda.
+      - name: fk_pedido_item
+        description: Chave estrangeira da tabela pedido item.
+      - name: motivo_venda
+        description: Motivo da venda.
+      - name: razao_venda
+        description: Razão da venda.
