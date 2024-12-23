@@ -16,3 +16,21 @@ sources:
             tests:
               - unique
               - not_null
+      - name: ADDRESS
+        columns:
+            - name: ADDRESSID
+              tests:
+                - unique
+                - not_null
+      - name: COUNTRYREGION
+        columns:
+          - name: COUNTRYREGIONCODE
+            tests:
+              - unique
+              - not_null
+      - name: STATEPROVINCE
+        columns:
+          - name: STATEPROVINCEID
+            tests:
+              - unique
+              - not_null
