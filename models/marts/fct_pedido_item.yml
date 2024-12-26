@@ -14,3 +14,7 @@ models:
         description: Desconto concedido unitário do produto no pedido.
       - name: QUANTIDADE
         description: Quantidade do produto no pedido.
+      - name: VALOR_BRUTO
+        description: Preço unitário multiplicado pela quantidade.
+      - name: VALOR_LIQUIDO
+        description: Preço unitário menos o valor de desconto, multiplicado pela quantidade.

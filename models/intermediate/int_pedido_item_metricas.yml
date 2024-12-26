@@ -1,0 +1,11 @@
+models:
+  - name: int_pedido_item_metricas
+    columns:
+      - name: PK_PEDIDO_ITEM
+      - name: FK_PEDIDO
+      - name: FK_PRODUTO
+      - name: PRECO_UNITARIO
+      - name: DESCONTO_UNITARIO
+      - name: QUANTIDADE
+      - name: VALOR_BRUTO
+      - name: VALOR_LIQUIDO
