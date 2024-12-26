@@ -15,7 +15,7 @@ with
             , c.fk_territorio
             , p.nome_pessoa as nome_cliente
         from stg_customer as c
-        inner join stg_person as p
+        left join stg_person as p
             on c.fk_pessoa = p.pk_pessoa
     )
 

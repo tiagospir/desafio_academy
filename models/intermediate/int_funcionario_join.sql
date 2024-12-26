@@ -21,9 +21,9 @@ with
             , p.nome_pessoa as nome_funcionario
             , f.cargo
         from stg_salesperson as vp
-        inner join stg_employee as f
+        left join stg_employee as f
             on vp.pk_vendapessoa = f.pk_funcionario
-        inner join stg_person as p
+        left join stg_person as p
             on f.pk_funcionario = p.pk_pessoa
     )
 
