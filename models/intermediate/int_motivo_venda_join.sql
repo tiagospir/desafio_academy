@@ -16,7 +16,7 @@ with
             , m.motivo_venda
             , m.razao_venda
         from stg_salesorderheadersalesreason as vm
-        inner join stg_salesreason as m
+        left join stg_salesreason as m
             on vm.fk_motivo_venda = m.pk_motivo_venda
     )
 

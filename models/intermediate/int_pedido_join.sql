@@ -20,7 +20,7 @@ with
             , p.STATUS_PEDIDO
             , c.tipo_cartao
         from stg_salesorderheader as p
-        inner join stg_creditcard as c
+        left join stg_creditcard as c
             on p.fk_cartao = c.pk_cartao 
     )
 
