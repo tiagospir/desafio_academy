@@ -10,7 +10,7 @@ with
             , cast (CREDITCARDID as int) as fk_cartao
             , cast (CUSTOMERID as int) as fk_cliente
             , cast (SALESPERSONID as int) as fk_funcionario
-            , cast (TERRITORYID as int) as fk_territorio
+            , cast (BILLTOADDRESSID as int) as fk_territorio
             , cast (ORDERDATE as date) as data_pedido
             , cast (SHIPDATE as date) as data_envio
             , cast (STATUS as int) as status_pedido
