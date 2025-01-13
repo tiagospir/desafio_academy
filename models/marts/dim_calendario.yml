@@ -1,0 +1,30 @@
+models:
+  - name: dim_calendario
+    description: Dimensão de calendário.
+    columns:
+      - name: DATA_DIA
+        description: Chave primária da tabela calendário. Data completa no formato aaaa-mm-dd.
+      - name: DIA
+        description: Número do dia.
+      - name: DIA_DA_SEMANA
+        description: Número do dia da semana, sendo de 1 - Domingo até 7 - Sábado.
+      - name: NOME_DO_DIA
+        description: Nome do dia da semana.
+      - name: MES
+        description: Número do mês.
+      - name: NOME_DO_MES
+        description: Nome completo do mês.
+      - name: ABREV_DO_MES
+        description: Abreviação de 3 letras do mês.
+      - name: TRIMESTRE
+        description: Número do trimestre.
+      - name: NOME_TRIMESTRE
+        description: Nome do trimestre.
+      - name: SEMESTRE
+        description: Número do semestre.
+      - name: NOME_SEMESTRE
+        description: Nome do semestre.
+      - name: DIA_DO_ANO
+        description: Dia do ano corrido.
+      - name: ANO
+        description: Número do ano.
