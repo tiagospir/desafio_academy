@@ -1,15 +1,33 @@
-Welcome to your new dbt project!
+### Projeto Aplicado – Engenharia e Arquitetura de Dados
+Bem-vindo!
+Este repositório reúne o conteúdo do meu Projeto Aplicado para a pós-graduação em Engenharia e Arquitetura de Dados.
 
-### Using the starter project
+### Objetivo
+O objetivo principal do projeto é construir uma solução completa de Business Intelligence (BI), passando por todas as etapas do pipeline de dados — da extração à visualização — com foco em governança, escalabilidade e boas práticas de engenharia de dados.
 
-Try running the following commands:
-- dbt run
-- dbt test
+### Tecnologias e Ferramentas
+- dbt (Data Build Tool): utilizado para construção do pipeline de transformação de dados, seguindo a arquitetura Medallion (bronze, silver, gold), com implementação de testes e documentação.
+- Snowflake: banco de dados em nuvem usado como Data Warehouse, onde os dados tratados são armazenados e otimizados para consumo.
+- Power BI: ferramenta de visualização utilizada para criação dos dashboards e análise final dos dados transformados.
 
+### Estrutura do Repositório
+├── analyses/                # Análises SQL auxiliares para exploração e validação
+├── macros/                  # Macros customizadas do projeto
+├── models/                  # Modelos dbt (bronze, silver, gold)
+├── seeds/                   # Dados estáticos utilizados como base de referência no dbt
+├── snapshots/               # Snapshots dbt (se utilizados)
+├── tests/                   # Testes automatizados (source, unique, not_null, etc.)
+├── dbt_project.yml          # Configuração principal do projeto dbt
+└── README.md                # Este arquivo
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+### Testes e Governança
+Foram implementados testes automatizados com foco em:
+- Validação de fontes de dados (source tests)
+- Unicidade e obrigatoriedade de chaves primárias (key tests)
+- Consistência entre camadas
+
+### Visualizações
+Os dashboards foram desenvolvidos no Power BI, utilizando os dados disponíveis na camada gold do Data Warehouse, com foco na análise de vendas e desempenho de produtos.
+
+### Documentação
+A documentação completa das tabelas, colunas e relacionamentos está presente no arquivo .yml de cada tabela dentro da pasta 'models'.
