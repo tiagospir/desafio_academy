@@ -12,12 +12,19 @@ O objetivo principal do projeto é construir uma solução completa de Business 
 
 ### Estrutura do Repositório
 ├── analyses/                # Análises SQL auxiliares para exploração e validação
+
 ├── macros/                  # Macros customizadas do projeto
+
 ├── models/                  # Modelos dbt (bronze, silver, gold)
+
 ├── seeds/                   # Dados estáticos utilizados como base de referência no dbt
+
 ├── snapshots/               # Snapshots dbt (se utilizados)
+
 ├── tests/                   # Testes automatizados (source, unique, not_null, etc.)
+
 ├── dbt_project.yml          # Configuração principal do projeto dbt
+
 └── README.md                # Este arquivo
 
 ### Testes e Governança
