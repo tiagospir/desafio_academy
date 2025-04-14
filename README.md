@@ -15,7 +15,7 @@ O objetivo principal do projeto é construir uma solução completa de Business 
 
 ├── macros/                  # Macros customizadas do projeto
 
-├── models/                  # Modelos dbt (bronze, silver, gold)
+├── models/                  # Modelos dbt (staging, intermediate e marts)
 
 ├── seeds/                   # Dados estáticos utilizados como base de referência no dbt
 
